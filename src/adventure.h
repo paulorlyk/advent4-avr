@@ -1,0 +1,12 @@
+//
+// Created by palulukan on 4/30/22.
+//
+
+#ifndef ADVENTURE_H_9EE684CD713C4B7B892CE455D6A2CFD4
+#define ADVENTURE_H_9EE684CD713C4B7B892CE455D6A2CFD4
+
+#include <stdbool.h>
+
+void advent_main(bool debug);
+
+#endif //ADVENTURE_H_9EE684CD713C4B7B892CE455D6A2CFD4
