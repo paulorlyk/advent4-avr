@@ -30,7 +30,7 @@ cmake ..
 make hex
 ```
 
-This will generate *.hex files for MCU flesh and EEPROM as well as binary in ELF format. 
+This will generate *.hex files for MCU's flesh and EEPROM as well as binary in ELF format. 
 
 ## Program
 
@@ -38,7 +38,7 @@ To program Arduino Mega 2560 board or it's clone:
 ```shell
 make burn
 ```
-This wil program flash and EEPROM, assuming that Arduino is connected to port /dev/tyUSB0 (see CMakeLists.txt).
+This wil program flash and EEPROM, assuming that Arduino is connected on /dev/ttyUSB0 (see CMakeLists.txt).
 
 Or directly with `avrdude`:
 
